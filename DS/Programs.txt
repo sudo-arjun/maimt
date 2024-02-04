@@ -1,0 +1,65 @@
+BCA-232 Data Structures
+List of programs
+Chapter 4 Array
+1.	Find the largest element in unsorted array
+2.	Find second largest element in unsorted array
+3.	Delete duplicate elements from array
+4.	Array implementation
+	Insert an element
+	Delete an element
+	Display elements
+5.	Find an element in an array using linear search
+6.	Find an element in an array using binary search
+7.	Find the largest number in 2-D matrix
+8.	Transpose of matrix
+9.	Find the sum of diagonal elements of matrix
+10.	Display the following elements of square matrix:
+	Lower left triangular matrix
+	Lower right triangular matrix
+	Upper left triangular matrix
+	Upper right triangular matrix
+	Display border elements only
+11.	Addition of two 2-D matrices
+12.	Multiplication of two 2-D matrices
+13.	Implementation of triangular sparse matrix
+14.	Implementation of tridiagonal sparse matrix
+Chapter 6 Stack, Queue
+15.	Implement stack using array 
+	Push an element
+	Pop an element
+	Display all the elements
+16.	Implement circular queue using array
+	Insert an element
+	Delete an element
+	Display all the elements
+Chapter 3 Strings
+17.	Search a substring in a string
+18.	Insert a substring in a string
+19.	Delete a substring from a string
+20.	Replace a substring with another substring
+Chapter 5 Linked List
+21.	Find the smallest number in an array using pointers
+22.	Swap two numbers using function and pointers
+23.	Write a program to perform following operations on unsorted linked list:
+	Insert a node at the beginning of linked list
+	Insert a node at the end of linked list
+	Search a node in linked list
+	Delete a node from the linked list
+	Display values of all the nodes
+24.	Write a program to perform following operations on sorted linked list:
+	Insert a node in sorted linked list
+	Search a node in sorted linked list
+	Delete a node from the sorted linked list
+	Display values of all the nodes
+25.	Implement stack using linked list 
+	Push an element
+	Pop an element
+	Display all the elements
+26.	Implement queue using linked list
+	Insert an element
+	Delete an element
+	Display all the elements
+Chapter 9 Sorting and Searching
+27.	Selection sort
+28.	Bubble sort
+29.	Insertion sort

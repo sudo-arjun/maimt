@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>test_chetan_223100</title>
+    <style>
+        * {
+            padding: 1px;
+        }
+
+        h2 {
+            background-color: #bad2e8;
+            color: #3874ad;
+        }
+
+        span {
+            color: #3874ad
+        }
+
+        table,tr,td {
+            border: 2px black solid;
+            margin: 0px;
+	    border-collapse:collapse;
+        }
+	tr{
+	   padding:0px;
+	}
+
+        .tableHeading {
+            text-align: center;
+            text-decoration: solid black 10px;
+
+        }
+	.rowBg
+	{
+	   background-color:#eaeaea;
+	}
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>About</h2>
+        <p>Woof woof!</p>
+        <p>Hi, I'm Chetan. I love <span>User Interface Design</span></p>
+    </div>
+    <div>
+        <h2>Courses</h2>
+        <p>Here are some courses I've taken:</p>
+        <table>
+            <tr class="tableHeading">
+                <td><b>Course Number</b></td>
+                <td><b>Course Title</b></td>
+                <td><b>Semester Taken</b></td>
+            </tr>
+            <tr class="tableHeading">
+                <td colspan="3"><b>For Credit</b></td>
+            </tr>
+            <tr class="rowBg">
+                <td><span>6.813</span></td>
+                <td>
+                    <span>
+                        User Interface Design
+                        <span>
+                </td>
+                <td>
+                    <span>
+                        Spring 2014
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><span>6.034</span></td>
+                <td>Artificial Intelligence</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr class="rowBg">
+                <td><span>6.006</span></td>
+                <td>Introduction to Algorithms</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr class="tableHeading">
+                <td colspan="3"><b>Listener</b</td>
+            </tr>
+            <tr class="rowBg">
+                <td><span>6.867</span></td>
+                <td>Machine Learning</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <td><span>6.830</span></td>
+                <td>Database systems</td>
+                <td>Fall 2012</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Interests</h2>
+        <p>
+            I am interested <strong>HCI</strong>, memes, and youtube videos.
+        </p>
+    </div>
+    <div>
+        <h2>Submit Pet Information</h2>
+        <p>Would love to know what kinds of pets you 'own'(you'll never own me). Submit below!</p>
+        <form>
+            <div>
+                <label for="txtName">Name:</label>
+                <input type="text" name="txtName">
+            </div>
+            <div>
+                <label for="txtPhylum">Phylum:</label>
+                <input type="text" name="txtPhylum">
+            </div>
+            <div>
+                <label for="txtGender">Gender:</label>
+                <input type="text" name="txtGender">
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

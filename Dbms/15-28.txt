@@ -1,0 +1,21 @@
+15. select customerNumber, contactFirstName, contactLastName, phone
+from customers where contactFirstName like '%ea%'
+16. select customerNumber, contactFirstName, contactLastName, phone
+from customers where contactFirstName like '__t%'
+17. 
+18. select productcode,productname 
+from products where productCode like '%12_1%'
+19. select distinct customernumber from payments
+20. select distinct city from customers where country = 'france'
+21. select distinct city from customers where country = 'france' order by city
+22. select count(distinct city) from customers where country = 'france'
+23. select count(distinct city) as 'No. of Cities' from customers where country = 'france'
+24. select count(distinct employeenumber) as 'No. of SalesRepresentative' from employees where jobtitle='Sales Rep'
+25. select productLine from productlines order by productLine
+26. select * from payments order by amount desc limit 5
+27. select * from payments where checkNumber like 'M%' order by amount desc limit 3
+28. select * from offices where state is null
+
+
+
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 02</title>
+    <style>
+        #div1 {
+            height: 70px;
+            text-align: center;
+        }
+
+        #div1 img {
+            border: dashed 3px green;
+            width: 250px;
+        }
+
+        #div1 a {
+            padding: 4px;
+            color: green;
+            text-decoration: none;
+        }
+
+        #div1 a:hover {
+            color: blue;
+            text-decoration: underline;
+            font-size: 17px;
+        }
+
+        #div1 a:visited {
+            color: red;
+        }
+
+        #div2 table {
+            border-collapse: collapse;
+            min-width: 100%;
+        }
+
+        #div2 table tr th {
+            text-align: left;
+            background-color: rgb(240, 240, 240);
+            border: 2px solid black;
+        }
+
+        /* 
+        #div table tr th:nth-last-child(2) {
+            text-align: center;
+        } */
+
+        #div2 table tr td {
+            background-color: rgb(219, 239, 246);
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        <a href="https://www.w3schools.com/" target="_blank"><img src="W3Schools_logo.png"
+                alt="w3school"><br>w3school.com</a>
+    </div>
+    <div id="div2">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th colspan="2" style="text-align: center;">Telephone</th>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>Mca</td>
+                <td>9098989898</td>
+                <td>7786090909</td>
+            </tr>
+            <tr>
+                <td>Shyam</td>
+                <td>Mca</td>
+                <td>9050505050</td>
+                <td>7070707070</td>
+            </tr>
+            <tr>
+                <td>Aman</td>
+                <td>Mca</td>
+                <td>9099090909</td>
+                <td>7070707079</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div id="div3">
+        <table>
+            <tr>
+                <th>Names</th>
+            </tr>
+        </table>
+        <ol>
+            <li>Ram</li>
+            <li>Shyam</li>
+            <li>Aman</li>
+        </ol>
+
+        <table>
+            <tr>
+                <th>Class</th>
+            </tr>
+        </table>
+        <ol type="i">
+            <li>Mca</li>
+            <li>Mca</li>
+            <li>Mca</li>
+        </ol>
+
+        <table>
+            <tr>
+                <th>Telephone</th>
+            </tr>
+        </table>
+        <ol type="1">
+            <li>Ram</li>
+            <ol type="a">
+                <li>9098989898</li>
+                <li>7786090909</li>
+            </ol>
+            <li>Shyam</li>
+            <ol type="a">
+                <li>9050505050</li>
+                <li>7070707070</li>
+            </ol>
+            <li>Aman</li>
+            <ol type="a">
+                <li>9099090909</li>
+                <li>7070707079</li>
+            </ol>
+        </ol>
+    </div>
+</body>
+
+</html>
