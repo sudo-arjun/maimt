@@ -61,6 +61,7 @@ class CarManufacturer : public PlasticCompany , public IronCompany, public TyreC
             cout << "The Manufacturing of cars is not possible due to shortage in some material" << endl;
         }
 };
+
 int main()
 {
     CarManufacturer carObj;    
