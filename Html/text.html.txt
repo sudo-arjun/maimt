@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<title>assignment 05</title>
+</head>
+<style>
+ input,select
+{
+  margin-top:20px;
+}
+</style>
+<body>
+<h2>STUDENT REGISTRATION FORM</h1>
+<form>
+<fieldset>
+<legend>Enter your details</legend> 
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lname"><br>
+<label for="gender">Gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender" value="female">
+<label for="male">Female</label><br>
+<label for="qualification">Qualification:</label>
+<select name="qualification" id="qualification">
+<option value="Matric">Matric</option>
+<option value="Intermmediate">Intermmediate</option>
+<option value="Diploma">Diploma</option>
+<option value="Graduation">Graduation</option>
+<option value="Post-Graduation">Post-Graduation</option>
+</select><br>
+<label for="country">Country:</label>
+<select name="country" id="country">
+<option value="America">America</option>
+<option value="China">China</option>
+<option value="India">India</option>
+<option value="Japan">Japan</option>
+<option value="Nepal">Nepal</option>
+<option value="uk">Uk</option>
+<option value="other than above">other than above</option>
+</select><br><br>
+<label for="address">Address:</label><br>
+<textarea rows="4" col="15"></textarea><br>
+<input type="submit" value="submit data">
+<input type="reset" value="reset data">
+</fieldset>
+</form>
+</body>
+</html>
